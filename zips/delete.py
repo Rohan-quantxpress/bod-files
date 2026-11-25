@@ -25,7 +25,7 @@ for filename in os.listdir(BOD_ZIP_DIR):
     day, month, year = match.groups()
 
     # Delete June and July 2026 files
-    if month in {"08"} and year == "2026":
+    if month in {"10"} and year == "2026":
 
         file_path = os.path.join(BOD_ZIP_DIR, filename)
 
